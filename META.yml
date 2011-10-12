@@ -27,6 +27,6 @@ requires:
   warnings: 0
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=App-MediaWiki2Git
-  homepage: https://github.com/mca-wtsi/MediaWiki2Git
-  repository: git://github.com/mca-wtsi/MediaWiki2Git
-version: 0.001002
+  homepage: https://github.com/mca-wtsi/App-MediaWiki2Git
+  repository: git://github.com/mca-wtsi/App-MediaWiki2Git
+version: 0.002000

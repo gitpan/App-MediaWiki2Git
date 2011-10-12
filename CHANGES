@@ -1,8 +1,47 @@
 Revision History for App-MediaWiki2Git
 ======================================
 
-0.001002
---------
+v0.02 2011-10-12
+----------------
+
+commit 64646c1075ae3353a2dc2854d49a2d454c08bf27
+Author: Matthew Astley <beeep$mca@t8o.org>
+Date:   Tue Oct 11 22:28:44 2011 +0100
+
+    POD overhaul.
+    
+    and derived README.md update
+
+commit 0445cb83ac6b1adf90f42d2e07e6d27187f769e0
+Author: Matthew Astley <beeep$mca@t8o.org>
+Date:   Tue Oct 11 17:34:12 2011 +0100
+
+    small fixes.
+    
+    rename page_revs key to show internalness;
+    make dns_qual completely optional;
+    write fetches to STDOUT,
+     to be more normal and
+     so I can grep away my own commits;
+    fix the stub script and have it call pod2usage
+
+commit e960562cfc9f7230a904a82de83ef82d5416fe77
+Author: Matthew Astley <mca@sanger.ac.uk>
+Date:   Tue Oct 11 11:56:07 2011 +0100
+
+    fetch until no more.
+    
+    fetch pages in a loop until there is no 'continue';
+    avoid re-fetching the current page,
+      when there are no more revisions,
+      so no-fetch is silent;
+    tweak the noise
+
+commit 621fadba60859bbb09ebd78e22acc126db9f0106
+Author: Matthew Astley <beeep$mca@t8o.org>
+Date:   Tue Oct 11 00:33:03 2011 +0100
+
+    github project name: include the App-
 
 commit faf0db1c8c0216b74ea325a920ae4412a527abce
 Author: Matthew Astley <beeep$mca@t8o.org>
