@@ -1,8 +1,38 @@
 Revision History for App-MediaWiki2Git
 ======================================
 
-v0.02 2011-10-12
-----------------
+v0.003 2011-10-14
+-----------------
+
+commit 8a88572f28763bad10f1bf4f31dbfa6dae4c42ff
+Author: Matthew Astley <beeep$mca@t8o.org>
+Date:   Fri Oct 14 08:59:29 2011 +0100
+
+    include the script.
+    
+    I dropped the [ExecDir]dir= with an incorrect assumption of the default;
+    it runs without install where I use it
+
+commit a746095f79f480972fdb6baa25bec3b94c8e7878
+Author: Matthew Astley <beeep$mca@t8o.org>
+Date:   Thu Oct 13 17:57:59 2011 +0100
+
+    gah.
+    
+    bash builtin printf takes options, and rejects a leading ---
+    unless it is offered the traditional -- separator.
+    my /usr/bin/printf work without the -- ...
+
+commit d049781134610791b7d9e3465892ae952c668f15
+Author: Matthew Astley <mca@sanger.ac.uk>
+Date:   Wed Oct 12 12:00:39 2011 +0100
+
+    attempt to bring G:DV to heel..?
+    
+    https://rt.cpan.org/Ticket/Display.html?id=71626
+
+v0.002000 2011-10-12
+--------------------
 
 commit 64646c1075ae3353a2dc2854d49a2d454c08bf27
 Author: Matthew Astley <beeep$mca@t8o.org>

@@ -4,9 +4,9 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+bin/mw2git
 dist.ini
 lib/App/MediaWiki2Git.pm
-scripts/mw2git
 t/author-critic.t
 t/release-has-version.t
 t/release-pod-syntax.t

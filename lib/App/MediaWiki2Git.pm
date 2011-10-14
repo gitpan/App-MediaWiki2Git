@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package App::MediaWiki2Git;
 {
-  $App::MediaWiki2Git::VERSION = '0.002000';
+  $App::MediaWiki2Git::VERSION = '0.003';
 }
 
 use Moose;
@@ -19,7 +19,7 @@ App::MediaWiki2Git - copy MediaWiki page history into a Git repository
 
 =head1 VERSION
 
-version 0.002000
+version 0.003
 
 =head1 SYNOPSIS
 
@@ -28,7 +28,7 @@ version 0.002000
  cd pages
  git init
  git commit --allow-empty -m 'initial empty commit'
- printf "---\nmediawiki:\n  api_url: http://example.com/wiki/api.php\npages:\n  - MainPage\n" > mw2git.yaml
+ /usr/bin/printf "---\nmediawiki:\n  api_url: http://example.com/wiki/api.php\npages:\n  - MainPage\n" > mw2git.yaml
  git add mw2git.yaml
  git commit -m 'initial config'
 

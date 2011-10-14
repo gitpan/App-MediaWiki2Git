@@ -13,6 +13,10 @@ $m2g->go;
 
 mw2git - MediaWiki2Git script
 
+=head1 VERSION
+
+version 0.003
+
 =head1 SYNOPSIS
 
  cd prepared_directory

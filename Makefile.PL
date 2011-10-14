@@ -19,7 +19,9 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "App-MediaWiki2Git",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/mw2git"
+  ],
   "LICENSE" => "perl",
   "NAME" => "App::MediaWiki2Git",
   "PREREQ_PM" => {
@@ -29,11 +31,12 @@ my %WriteMakefileArgs = (
     "MediaWiki::API" => 0,
     "Moose" => 0,
     "Net::DNS" => 0,
+    "Pod::Usage" => 0,
     "YAML" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002000",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
